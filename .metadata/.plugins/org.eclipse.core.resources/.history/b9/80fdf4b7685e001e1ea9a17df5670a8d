@@ -1,0 +1,40 @@
+package Projeto;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.function.Predicate;
+
+public class Musica {
+
+	private List<Musica> musicaList;
+	
+	public Musica() {
+		this.musicaList = new ArrayList<>();				
+	}
+	
+	public List<Musica> selecionarPorNome(){
+		
+		List<String> musicas = Arrays.asList("Música A", "Música B","Música C");
+		if(!musicas.isEmpty()) {
+			List<Musica> musicaPorNome = new ArrayList<>(musicaList);
+			Predicate<String> musicasPorNome= musica -> musica.equals("Música A");
+			
+			musicas.stream().filter(musicasPorNome);
+			return musicaPorNome;
+			
+		} else {
+			 throw new RuntimeException("A lista está vazia!");
+		}
+	}
+
+	@Override
+	public String toString() {
+		return "Musica [musicaList=" + musicaList + "]";
+	}
+	
+	
+	
+	
+	
+}

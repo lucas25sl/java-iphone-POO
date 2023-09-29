@@ -1,0 +1,37 @@
+package Projeto;
+
+import java.util.Scanner;
+
+public class Usuario {
+
+	public static void main(String[] args) {
+		Iphone iphone = new Iphone();
+		Musica musica = new Musica();
+		
+		Scanner scan = new Scanner(System.in);
+		
+		iphone.ligar();
+		
+		String nomeMusica;
+		
+		nomeMusica = scan.next();
+		
+		musica.exibirMusicas(nomeMusica);
+		
+		iphone.selecionarMusica();
+		iphone.tocar();
+		iphone.pausar();
+		
+		iphone.atender();
+		
+		iphone.adicionarNovaAba();
+		iphone.exibirPagina();
+		iphone.atualizarPagina();
+		
+		iphone.iniciarCorreioVoz();
+		
+		
+
+	}
+
+}

@@ -1,0 +1,7 @@
+package Projeto;
+
+public interface ReprodutorMusical {
+	
+	public void tocar();
+
+}

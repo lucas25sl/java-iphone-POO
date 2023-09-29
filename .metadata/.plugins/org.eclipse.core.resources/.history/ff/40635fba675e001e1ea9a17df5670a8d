@@ -1,0 +1,26 @@
+package Projeto;
+
+public class Usuario {
+
+	public static void main(String[] args) {
+		Iphone iphone = new Iphone();
+		
+		iphone.ligar();
+		
+		iphone.selecionarMusica();
+		iphone.tocar();
+		iphone.pausar();
+		
+		iphone.atender();
+		
+		iphone.adicionarNovaAba();
+		iphone.exibirPagina();
+		iphone.atualizarPagina();
+		
+		iphone.iniciarCorreioVoz();
+		
+		
+
+	}
+
+}

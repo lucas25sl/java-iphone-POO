@@ -1,0 +1,60 @@
+package Projeto;
+
+
+public class Iphone implements AparelhoTelefonico,NavegadorInternet,ReprodutorMusical   {
+
+	@Override
+	public void tocar() {
+		System.out.println("Reproduzindo Música");
+		
+	}
+	
+	public void pausar() {
+		System.out.println("Pausando Música");
+	}
+	
+	public void selecionarMusica() {
+		System.out.println("Selecionando Música");
+	}
+
+
+	@Override
+	public void ligar() {
+		System.out.println("Ligar");
+		
+	}
+
+	@Override
+	public void atender() {
+		System.out.println("Atendendo Ligação");
+		
+	}
+
+	@Override
+	public void iniciarCorreioVoz() {
+		System.out.println("Iniciando Correio de Voz");
+		
+
+	@Override
+	public void exibirPagina() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void adicionarNovaAba() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void atualizarPagina() {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+
+
+
+}

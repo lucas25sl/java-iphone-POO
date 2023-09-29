@@ -1,0 +1,14 @@
+package Projeto;
+
+
+public class Iphone implements AparelhoTelefonico, NavegadorInternet , ReprodutorMusical   {
+
+	@Override
+	public void tocar() {
+		System.out.println("Reproduzindo Música");
+		
+	}
+
+
+
+}
